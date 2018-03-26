@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body >
+
+	<form action="ControllerServlet" method="GET">
+		
+			<input type="hidden" name="command" value="RESERVE">
+			Select Date Between April-October<br><input type="date" class="edittext" name="date">
+			<br>
+			Enter Your Email Address<br><input type="email" class="edittext" name="email">
+			<br>
+			Enter Your Phone Number<br><input type="number" class="edittext" name="phone">
+			<br><br>
+			Number Of Spaces<input type="radio" class="radio" name="space" value="1">1<input type="radio" class="radio" name="space" value="2">2
+			<br><br>
+			Number Of Nights<select name="nights">
+			<option>1
+			<option>2
+			<option>3
+			<option>4
+			<option>5
+			<option>6
+			<option>7
+			</select>
+			<br>
+			<br>
+			<input type="submit" class="button" name="reserve" value="RESERVE">
+		
+	</form>
+	<br>To cancel your reservation just call us on: 090*********** or email us at: *********@*****
+</body>
+</html>
